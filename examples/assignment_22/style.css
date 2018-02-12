@@ -4,15 +4,5 @@
   height: 400 px;
   border: 2 px solid #FFCC00;
   padding: 25px;
-  padding-top: 100 px;
-
-  margin: 100 px;
-
 }
 .largetext { font-size: 36 px;}
-main {
-  width: 800px;
-  border: 1px dotted black;
-  margin-left: auto;
-  margin-right: auto;
-}
