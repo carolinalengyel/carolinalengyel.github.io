@@ -1,7 +1,18 @@
 /*
 font-family: 'Dancing Script', cursive;
 */
+.greentext {
+  color: green;
+}
 h1{
 font-family: 'Dancing Script' cursive;
 color: red;
 }
+a {
+  color: pink;
+  text-decoration: none;
+}
+a:hover  {
+text-decoration: underline;
+}
+a:visited { }
