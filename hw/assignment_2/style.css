@@ -1,5 +1,6 @@
 /*
 font-family: 'Kaushan Script', cursive;
+font-family: 'Playfair Display', serif;
 */
 .purpletext {
   color: purple;
@@ -9,7 +10,11 @@ font-family: 'Kaushan Script' cursive;
 color: pink;
 }
 h2{
+  font-family: 'Playfair Display' serif;
   color: purple;
+}
+p{
+    font-family: 'Playfair Display' serif;
 }
 a {
   color: pink;
