@@ -8,6 +8,9 @@ h1{
 font-family: 'Kaushan Script' cursive;
 color: pink;
 }
+h2{
+  color: purple;
+}
 a {
   color: pink;
   text-decoration: none;
