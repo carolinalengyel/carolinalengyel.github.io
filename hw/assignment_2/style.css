@@ -5,6 +5,9 @@ font-family: 'Playfair Display', serif;
 .purpletext {
   color: purple;
 }
+.purple-bg { background: purple}
+.pinktext { color: #f778A5;}
+.largetext {}
 h1{
 font-family: 'Kaushan Script' cursive;
 color: pink;
@@ -19,8 +22,10 @@ p{
 a {
   color: pink;
   text-decoration: none;
+
 }
 a:hover  {
 text-decoration: underline;
 }
 a:visited { }
+ul { list-style-type: circle;}
