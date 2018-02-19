@@ -9,14 +9,14 @@
 .leftcol {
   width: 220px;
   border: 1px solid red;
-  min-width: 200px;
+  min-height: 200px;
   display: block;
   float: left;
 }
 .rightcol {
   width: 680px;
   border: 1px solid red;
-  min-width: 200px;
+  min-height: 200px;
   display: block;
   float: right;
 }
