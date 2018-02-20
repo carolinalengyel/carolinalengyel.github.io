@@ -2,18 +2,12 @@
 font-family: 'Kaushan Script', cursive;
 font-family: 'Playfair Display', serif;
 */
-.purpletext {
-  color: purple;
-}
-.purple-bg { background: purple}
-.pinktext { color: #f778A5;}
-.largetext {}
-h1{
-font-family: 'Kaushan Script' cursive;
-color: pink;
-}
+.purpletext {color: purple;}
+.purple-bg {background: purple;}
+.underline {text-decoration: underline;}
+.pinktext {color: pink;}
+.playfair {font-family: 'Playfair Display' serif;}
 h2{
-  font-family: 'Playfair Display' serif;
   color: purple;
 }
 p{
@@ -22,10 +16,14 @@ p{
 a {
   color: pink;
   text-decoration: none;
-
 }
 a:hover  {
 text-decoration: underline;
 }
 a:visited { }
 ul { list-style-type: circle;}
+#maintitle {
+  text-decoration: underline;
+  font-family: 'Kaushan Script' cursive;
+  color: pink;}
+#list {color: pink;}
