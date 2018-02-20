@@ -1,17 +1,17 @@
 /*
-font-family: 'Kaushan Script', cursive;
+font-family: 'Pacifico', cursive;
 font-family: 'Playfair Display', serif;
 */
 .purpletext {color: purple;}
 .purple-bg {background: purple;}
 .underline {text-decoration: underline;}
 .pinktext {color: pink;}
-.playfair {font-family: 'Playfair Display' serif;}
+.lora {font-family: 'Lora', serif;}
 h2{
   color: purple;
 }
 p{
-    font-family: 'Playfair Display' serif;
+    font-family: 'Lora', serif;
 }
 a {
   color: pink;
@@ -24,6 +24,6 @@ a:visited { }
 ul { list-style-type: circle;}
 #maintitle {
   text-decoration: underline;
-  font-family: 'Kaushan Script' cursive;
+  font-family: 'Pacifico', cursive;
   color: pink;}
 #list {color: pink;}
