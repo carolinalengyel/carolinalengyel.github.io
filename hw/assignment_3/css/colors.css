@@ -1,10 +1,11 @@
-.dark-bg { background: #AE4300; }
-.medium-bg { background: #FF6708; }
-.light-bg { background: #FFA066; }
 
-.dark-txt { color: #AE4300; }
-.medium-txt { color: #FF6708; }
-.light-txt { color: #FFA066; }
+.dark-bg { background: #008080; }
+.medium-bg { background: #20B2AA; }
+.light-bg { background: #AFEEEE; }
+
+.dark-txt { color: #008080; }
+.medium-txt { color: #20B2AA; }
+.light-txt { color: #AFEEEE; }
 
 body {
   padding: 0;
@@ -15,3 +16,6 @@ nav ul {
   padding-left: 0;
 }
 nav  a {text-decoration: none;}
+
+h1 { font-family: 'Courgette', cursive; }
+body { font-family: 'Lora', serif; }
