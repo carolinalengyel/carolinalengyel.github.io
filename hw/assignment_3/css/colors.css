@@ -19,3 +19,7 @@ nav  a {text-decoration: none;}
 
 h1 { font-family: 'Courgette', cursive; }
 body { font-family: 'Lora', serif; }
+
+img { max-width: 100%; }
+
+footer p {padding: 25px; }
