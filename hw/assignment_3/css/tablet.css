@@ -10,9 +10,13 @@ h2 {
 nav ul {
   text-align: center;
 }
+nav a:hover {
+  background-color: #20B2AA;
+  color: #AFEEEE;}
+
 nav li {
   text-align: center;
-  font-size: 28px;
+  font-size: 25px;
   padding: 25px;
   padding-top: 15px;
   padding-bottom: 15px;

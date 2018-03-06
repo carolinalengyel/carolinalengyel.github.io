@@ -7,6 +7,11 @@ nav li {
   padding-top: 15px;
   padding-bottom: 10px;
   padding-left: 15px;
+  display: inline;
+}
+nav a:hover {
+  background-color: #20B2AA;
+  color: #AFEEEE;
 }
 
 .square-img {
