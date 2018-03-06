@@ -7,6 +7,10 @@
 .medium-txt { color: #20B2AA; }
 .light-txt { color: #AFEEEE; }
 
+.padding {
+  padding-left: 25px;
+padding-right: 25px;}
+
 body {
   padding: 0;
   margin: 0;
@@ -19,6 +23,12 @@ nav  a {text-decoration: none;}
 
 h1 { font-family: 'Courgette', cursive; }
 body { font-family: 'Lora', serif; }
+
+h2 {
+  font-family: 'Courgette', cursive;
+  padding-left: 25px;
+  color: #20B2AA;
+ }
 
 img { max-width: 100%; }
 

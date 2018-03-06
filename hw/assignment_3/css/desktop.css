@@ -1,14 +1,9 @@
-.image-bg {
-  background-image: url("../images/wide.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 header h1 {
-  height: 100px;
+  height: 80px;
   padding-top: 50px;
   text-align: center;
+  font-size: 60px;
 }
 nav ul {
   text-align: right;
@@ -25,6 +20,10 @@ nav li {
   padding-bottom: 15px;
   display: inline;
 }
+nav a:hover {
+  background-color: #20B2AA;
+  color: #008080;
+}
 
 .square-img {
   display: none;
@@ -32,7 +31,9 @@ nav li {
 .wide-img {
   display: block;
 }
-
+h2 {
+  font-size: 40px;
+}
 footer {
   position: fixed;
   bottom: 0;
