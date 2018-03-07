@@ -12,10 +12,22 @@ padding-left: 25px;
 padding-right: 25px;
 padding-top: 0px;
 }
+.imagesize {
+
+}
+.column {
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.body {text-align: justify;}
 body {
   padding: 0;
   margin: 0;
-  text-align: justify;
 }
 nav ul {
   list-style-type: none;
