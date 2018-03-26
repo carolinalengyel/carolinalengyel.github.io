@@ -1,7 +1,7 @@
 $(function(){
   //Hide stuff
 
-  $('#getStarted').hide();
+  $('#getStarted, #finish, #previous').hide();
 
 
   //alert("hello");
@@ -22,6 +22,46 @@ var nextItem = $('li.active').next();
 currentItem.toggleClass('active');
 nextItem.toggleClass('active');
 
+// Conditional eval
+if($('li').last().hasClass('active')) {
+  $('#next').hide();
+  $('#finish').show();
+} else {
+  $('#next').show();
+
+}
+// Conditional eval
+if($('li').first().hasClass('active')) {
+  $('#previous').hide();
+} else {
+  $('#previous').show();
+}
 });
+
+$('#previous').on('click',function(){
+
+var currentItem = $('li.active');
+var previousItem = $('li.active').prev();
+
+currentItem.toggleClass('active');
+previousItem.toggleClass('active');
+
+// Conditional eval
+if($('li').last().hasClass('active')) {
+  $('#next').hide();
+  $('#finish').show();
+} else {
+  $('#next').show();
+}
+
+// Conditional eval
+if($('li').first().hasClass('active')) {
+  $('#previous').hide();
+} else {
+  $('#previous').show();
+}
+
+});
+
 
 });
