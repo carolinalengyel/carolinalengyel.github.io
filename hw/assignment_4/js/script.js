@@ -1,8 +1,7 @@
 $(function(){
   //Hide stuff
 
-  $('#getStarted, #finish, #previous').hide();
-
+  $('#getStarted, #finish, #previous, .hide').hide();
 
   //alert("hello");
   $('#title').on('mouseover',function(){
@@ -12,6 +11,14 @@ $(function(){
 
   $('#title').on('mouseleave',function(){
     $('.fa-arrow-alt-circle-left').toggleClass('fa-arrow-alt-circle-right');
+  });
+  // show our slides when clicked
+  $('#getStarted').on('click', function(){
+    $('.hide').show();
+    $('#getStarted').hide();
+  });
+  $('#finish').on('click', function() {
+      $('.hide, #next, #previous, #finish').hide();
   });
 
 $('#next').on('click',function(){
