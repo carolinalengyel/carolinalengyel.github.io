@@ -1,2 +1,33 @@
 #howTo li {display: none;}
 #howTo li.active {display: block;}
+button {
+    background-color: pink;
+    border: none;
+    color: white;
+    width: 150px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+};
+
+h1 {
+
+}
+
+ul { list-style-type: circle;}
+
+.active {
+  border: 2px solid pink;
+  display: block;
+  padding: 25px;
+}
+
+images {
+  width: 640px;
+};
+
+.smaller {
+  width: 60%
+}
