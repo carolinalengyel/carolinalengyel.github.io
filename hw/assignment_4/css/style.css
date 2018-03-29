@@ -13,6 +13,7 @@ button {
     display: inline-block;
     font-size: 12px;
     margin-left: 50px;
+    margin-bottom: 25px;
 }
 
 h1 {
@@ -27,7 +28,6 @@ h2 {
   padding-left: 25px;
   color: #E85598;
 }
-
 
 body {
   font-family: 'Lora', serif;
@@ -56,9 +56,11 @@ ul { list-style-type: circle;}
   margin-right: 25px;
 }
 
-images {
-  width: 640px;
-};
+img {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
 
 .smaller {
   width: 60%
