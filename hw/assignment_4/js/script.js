@@ -1,7 +1,7 @@
 $(function(){
   //Hide stuff
 
-  $('#getStarted, #finish, #previous, .hide').hide();
+  $('#getStarted, #finish, #previous, .hide, #survey').hide();
 
   //alert("hello");
   $('#title').on('mouseover',function(){
@@ -19,6 +19,21 @@ $(function(){
   });
   $('#finish').on('click', function() {
       $('.hide, #next, #previous, #finish').hide();
+      $('#survey').show();
+  });
+
+$('#yes').on('click',function(){
+  $('#surveytitle').css("background-color","white");
+  $('#survey').css({"border": "1px solid white",
+  "background":"#5FAE57"
+});
+});
+
+$('#no').on('click',function(){
+  $('#surveytitle').css("background-color","white");
+  $('#survey').css({"border": "1px solid white",
+  "background":"#CB1C20"
+  });
   });
 
 $('#next').on('click',function(){

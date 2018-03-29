@@ -1,7 +1,9 @@
+
+
 #howTo li {display: none;}
 #howTo li.active {display: block;}
 button {
-    background-color: pink;
+    background-color: #E85598;
     border: none;
     color: white;
     width: 150px;
@@ -10,18 +12,48 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-};
+    margin-left: 50px;
+}
 
 h1 {
+  font-family: 'Courgette', cursive;
+  margin-top: 0;
+  padding-left: 25px;
+  color: #E85598;
+  }
 
+h2 {
+  font-family: 'Courgette', cursive;
+  padding-left: 25px;
+  color: #E85598;
 }
+
+
+body {
+  font-family: 'Lora', serif;
+  background-color: #6B3119;
+  color: white;
+}
+
+p {padding-left: 25px;
+padding-right: 25px;}
+
+a {
+  color: #E85598;
+  text-decoration: none;
+}
+a:hover  {
+text-decoration: underline;
+}
+a:visited { }
 
 ul { list-style-type: circle;}
 
 .active {
-  border: 2px solid pink;
+  border: 2px solid #E85598;
   display: block;
   padding: 25px;
+  margin-right: 25px;
 }
 
 images {
