@@ -31,14 +31,15 @@ text-decoration: underline;
 a:visited { }
 
 li {
-  font-family: 'Abril Fatface', cursive;
   padding-left: 25px;
   color: teal;
+  font-weight: bold;
 }
 
 li span {
   font-family: 'Roboto', sans-serif;
   color: black;
+  font-weight: normal;
 }
 
 div {
